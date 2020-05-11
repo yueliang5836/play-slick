@@ -14,7 +14,7 @@ class SlickApiSpec extends Specification {
     val injector   = appBuilder.injector()
     val api        = injector.instanceOf[SlickApi]
   }
-
+    
   object SUTWithGoodConfig extends SUT {
     def config: Configuration = TestData.configuration
   }
